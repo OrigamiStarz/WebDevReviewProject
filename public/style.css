@@ -1,0 +1,32 @@
+/* heading / background */
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background: rgb(71,5,164);
+    background: linear-gradient(0deg, rgba(71,5,164,1) 0%, rgba(58,72,209,1) 55%, rgba(45,165,253,1) 100%) fixed;
+    background: -webkit-gradient(0deg, rgba(71,5,164,1) 0%, rgba(58,72,209,1) 55%, rgba(45,165,253,1) 100%) fixed;
+    color: white;
+}
+
+.product {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    transition: 0.3s ease-out;
+}
+
+.product:hover {
+    opacity: 0.85;
+}
+
+.desc {
+    color: rgb(184, 184, 184);
+}
+
+img {
+    width: 100px;
+    height: 300px;
+}

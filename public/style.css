@@ -2,6 +2,7 @@
 html {
     height: 100%;
 }
+
 body {
     height: 100%;
     margin: 0;
@@ -10,6 +11,14 @@ body {
     background: linear-gradient(0deg, rgba(71,5,164,1) 0%, rgba(58,72,209,1) 55%, rgba(45,165,253,1) 100%) fixed;
     background: -webkit-gradient(0deg, rgba(71,5,164,1) 0%, rgba(58,72,209,1) 55%, rgba(45,165,253,1) 100%) fixed;
     color: white;
+}
+
+.text-center {
+    transition: 0.5s ease-out;
+}
+
+.text-center:hover {
+    transform: rotate(360deg) scale(2);
 }
 
 .product {
